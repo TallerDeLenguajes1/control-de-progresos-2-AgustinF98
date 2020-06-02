@@ -7,11 +7,11 @@ namespace Minijuego
 
     enum Caracteristicas
     {
-        velocidad,
-        destreza,
-        fuerza,
-        nivel,
-        armadura
+        velocidad = 10,
+        destreza = 5,
+        fuerza = 10,
+        nivel = 10,
+        armadura = 10
     }
 
     public class Personaje
