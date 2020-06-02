@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Minijuego
+namespace DatosPersonaje
 {
 
-    enum Caracteristicas
+    public enum Caracteristicas
     {
         velocidad = 10,
         destreza = 5,
@@ -16,6 +16,17 @@ namespace Minijuego
 
     public class Personaje
     {
-        Caracteristicas caracteristicas;
+        string tipo;
+        string nombre;
+        string apodo;
+        DateTime fechaDeNacimiento;
+        int edad;
+        int salud;
+
+        public string Tipo { get => tipo; set => tipo = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Apodo { get => apodo; set => apodo = value; }
+        public DateTime FechaDeNacimiento { get => fechaDeNacimiento; set => fechaDeNacimiento = value; }
+        public int Salud { get => salud; set => salud = value; }
     }
 }
