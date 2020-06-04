@@ -16,7 +16,6 @@ namespace Minijuego
             valoresAleatorios.Next((int)Caracteristicas.nivel);
             valoresAleatorios.Next((int)Caracteristicas.armadura);
 
-            //\n
         }
 
         public Personaje AgregarDatos(Personaje Personaje, Random valoresAleatorios)
